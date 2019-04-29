@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.cobaweb">
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.sippo">
     <uses-permission android:name="android.permission.INTERNET"></uses-permission>
 
-    <application
+    <application android:debuggable="false"
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/icon"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@mipmap/icon"
         android:supportsRtl="true"
         android:configChanges="orientation|screenSize"
-        android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        android:theme="@style/AppTheme"
+        tools:ignore="HardcodedDebugMode">
+        <activity android:name="com.example.sippo.MainActivity">
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

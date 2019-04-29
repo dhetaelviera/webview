@@ -1,4 +1,4 @@
-package com.example.cobaweb;
+package com.example.sippo;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

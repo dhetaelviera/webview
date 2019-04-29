@@ -1,4 +1,4 @@
-package com.example.cobaweb;
+package com.example.sippo;
 
 import org.junit.Test;
 

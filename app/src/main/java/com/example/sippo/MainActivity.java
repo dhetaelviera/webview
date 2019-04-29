@@ -1,13 +1,12 @@
-package com.example.cobaweb;
+package com.example.sippo;
 
-import android.graphics.Bitmap;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
-import android.content.DialogInterface;
-import android.graphics.Bitmap;
+
+import com.example.sippo.R;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -51,19 +50,6 @@ public class MainActivity extends AppCompatActivity {
             super.onBackPressed();
         }
     }
-  /* public class myWebClient extends WebViewClient {
-        @Override
-        public void onPageStarted(WebView view, String url, Bitmap favicon) {
-            super.onPageStarted(view, url, favicon);
-        }
 
-        @Override
-        public boolean shouldOverrideUrlLoading(WebView view, String url) {
-            view.loadUrl(url);
-            return false;
-        }
-    }
-
-  */
 }
 
